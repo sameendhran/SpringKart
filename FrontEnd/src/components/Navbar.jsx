@@ -108,7 +108,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container-fluid">
             <a className="navbar-brand" >
-              SpringKart
+              Spring-Kart
             </a>
             <button
               className="navbar-toggler"

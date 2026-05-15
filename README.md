@@ -1,16 +1,17 @@
-# Smart Insurance Portal
+# E-commerce Application
 
 ## Overview
-A full-stack insurance management application developed using Java Spring Boot and PostgreSQL with REST API integration and layered backend architecture.
+A full-stack e-commerce application developed using Java Spring Boot and PostgreSQL with REST API integration for product management and backend operations.
 
 ---
 
 ## Features
-- User Authentication
-- Policy Management
+- Product Management
+- Add to Cart Functionality
 - CRUD Operations
 - REST APIs
 - Database Integration
+- Product Search and Categorization
 
 ---
 
@@ -31,14 +32,15 @@ Controller → Service → Repository → Database
 ---
 
 ## API Endpoints
-POST /login  
-GET /policies  
-POST /add-policy  
-DELETE /policy/{id}
+GET /products  
+POST /add-product  
+PUT /update-product/{id}  
+DELETE /delete-product/{id}
 
 ---
 
 ## Future Improvements
 - JWT Authentication
-- Docker Deployment
-- Cloud Hosting
+- Payment Gateway Integration
+- Order Tracking System
+- Cloud Deployment
